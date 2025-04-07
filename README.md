@@ -1,10 +1,7 @@
 # Airborne LiDAR Bathymetry - Best Practice Manual
 
 ## Introduction
-This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathymetry (ALB) in Norway. The intended audience is organizations procuring ALB and the manual is mainained by 
-
-
-The ide is , including concepts, implementation, advantages, limitations, and practical applications.
+This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathymetry (ALB) in Norway. The intended audience is organizations procuring ALB. 
 
 ## Table of Contents
 - [Airborne LiDAR Bathymetry - Best Practice Manual](#airborne-lidar-bathymetry---best-practice-manual)
