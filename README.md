@@ -49,6 +49,10 @@ The Riegl VQ880-G, on the other hand, is an airborne topo-bathy sensor with lowe
 
 Although they share many of the same sensor components and virtually the same measurement principles, an ALB system differs significantly from a classic ALS setup. Due to the air-water-air propagation, a measurement with an ALB sensor is a function of significant limiting factors and will be more difficult to process than the ALS measurement where the light propagates only in the air. This is illustrated in the following figure by Mandlburger (2022) in his article summarizing the available active and passive methods used in bathymetric surveys. 
 
+![Alt text for the image](/figures/Pfeifer-mandlburger-glira_2015_ALB-Concept.png)
+
+*Fig. 1: Conceptual drawing of the principle of airborne laser bathymetry. (Mandlburger 2020)*
+
 For the system to reliably register a seafloor return, the emitted light energy must survive a number of limiting factors. First, the energy must propagate from air to water and not be reflected at the air-water interface. Next, the light is attenuated in the water column by absorption and scattering. Finally, the seafloor must reflect a minimum amount of energy for the light to travel back up the propagation path to the ALB sensor. To calculate air-to-water and water-to-air refraction, the system must also acquire or estimate the water surface. Without modeling the water surface, the system will not be able to compute bathymetric measurements. 
 
 Because all of these factors potentially limiting sensor performance vary from site to site and over time within a site, it can be difficult to predict the end result when ordering an ALB survey.
@@ -89,6 +93,7 @@ Curated list of references, standards, and additional reading materials relevant
 
 ### Articles / Journal Papers
 - **Author(s)** (Year). *Title of the article*. _Journal Name_, Volume(Issue), pages. [DOI or URL]
+- **Mandlburger, G.** (2020). *A review of airborne laser bathymetry for mapping of inland and coastal waters.* _Hydrographische Nachrichten_, 116, 6–15. https://doi.org/10.23784/HN116-01
 
 ### Books
 - **Author(s)** (Year). *Title of Book* (Edition, if any). Publisher. ISBN (optional).
