@@ -33,6 +33,9 @@ The intention is that the manual has a broad ownership and changes can be propos
 This manual is licensed under the Norwegian Licence for Open Government Data (NLOD) 2.0.
 
 # Measurement Concept and Sensors
+
+**_FØLGENDE TEKST TAR UTGANSPUNKT I RAPPORTEN, MÅ GENERALISERES_**
+
 Light Detection and Ranging (LiDAR) technology has become the primary source for capturing river geometry, enabling rapid and accurate 3D point cloud collection in shallow water where other measurement techniques, such as multibeam echosounders, are impractical or impossible to use. 
 
 A LiDAR sensor measures the distance to a target by measuring the time between the emission of a laser pulse from a sensor and the detection of the reflected laser from the target. Depending on the wavelength, there are two types of LiDAR sensors: topographic LiDAR (ALS) and bathymetric LiDAR (ALB). Topographic LiDAR is associated with a 1064 nm laser, which cannot penetrate water and is therefore mainly used for topographic and sea surface sensing. Bathymetric LiDAR, on the other hand, uses a 532 nm laser that penetrates the water and provides bottom detection.
@@ -58,18 +61,33 @@ For the system to reliably register a seafloor return, the emitted light energy 
 Because all of these factors potentially limiting sensor performance vary from site to site and over time within a site, it can be difficult to predict the end result when ordering an ALB survey.
 
 # ALB Pros and Cons
+
+*_HER ØNSKER JEG Å KOMMUNISERE BEGRENSNINGER MED METODEN_* 
+
 An overview of the advantages and disadvantages of using Airborne LiDAR Bathymetry compared to traditional surveying methods.
 
 # ALB Use Cases in Norway
+
+*_HER ØNSKER JEG Å VISE TIL NOEN FAKTISKE RESULTATER_* 
+
 Descriptions and examples of practical applications and projects utilizing ALB technology within Norway.
 
 # ALB Procurement Process
+
+*_HER ØNSKER JEG AT VI SIER NOE OM ANSKAFFELSEN_* 
+
 Guidelines and recommendations on procuring ALB services, including tendering, specifications, and evaluation criteria.
 
 # ALB Project Workflow
+
+*_HER ØNSKER JEG AT VI GIR EN FLYT FOR PROSJEKTET, TID PÅ ÅRET_* 
+
 Step-by-step guide through the lifecycle of an ALB project, from planning and execution to data analysis and dissemination.
 
 # Example Specifications
+
+*_HER ØNSKER JEG AT VI LEGGER INN MALER FOR TEKNISK SPESIFIKASJON. ENKLESTE ER Å LENKE INN WORD DOKUMENTER MED ÅRSREVISJONER_* 
+
 Sample technical specifications and quality requirements for ALB projects.
 
 # Quality Control 
