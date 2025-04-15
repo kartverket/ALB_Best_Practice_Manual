@@ -11,9 +11,9 @@ This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathy
   - [How to Contribute](#how-to-contribute)
   - [Licence](#licence)
 - [Measurement Concept and Sensors](#measurement-concept-and-sensors)
-- [ALB Pros and Cons](#alb-pros-and-cons)
-    - [✅ Pros](#-pros)
-    - [⚠️ Cons](#️-cons)
+- [Strengths and Limitations of ALB](#strengths-and-limitations-of-alb)
+    - [Strengths](#strengths)
+    - [Limitations](#limitations)
 - [ALB Use Cases in Norway](#alb-use-cases-in-norway)
 - [ALB Procurement Process](#alb-procurement-process)
 - [ALB Project Workflow](#alb-project-workflow)
@@ -73,17 +73,16 @@ In order for the system to reliably detect a seafloor return, the emitted light 
 
 Because all of these factors potentially limiting sensor performance vary from site to site and over time within a site, it can be difficult to predict the end result when ordering an ALB survey.
 
-# ALB Pros and Cons
-
+# Strengths and Limitations of ALB
 An overview of the advantages and disadvantages of using airborne LiDAR bathymetry versus traditional surveying methods.
 
-### ✅ Pros
+### Strengths
 - The only acquisition approach that produces a homogeneous terrain model consisting of both bathymetry and topography.
 - Very efficient acquisition rate in shallow water. With a ~3 secci sensor operating at an altitude of 450m, we have experienced an concistent acquisition rate of 13 km2/h including line turns. Establishing bathymetry with ALB in shallow water will make complementary multibeam acquisition from surface vessels more efficient. 
 - Not prone to challenging sound profiles where fresh and salt water mix in estuaries and river inlets. These are areas where we experience large spatial and temporal variations that introduce significant errors when mapping with sonar.
 - A pure remote sensing acquisition method without the need for people or boats in remote, potentially dangerous or ecologically sensitive areas.
 
-### ⚠️ Cons
+### Limitations
 - Sensor performance, generally the depth range achieved, depends on several physical and environmental factors that are difficult to assess and predict. First, the seafloor must have a reflectivity above a certain threshold and one must have a line-of-sight to the sensor free of obstructions and vegetation (physical factors). Second, weather, sea state, amount of suspended sediment and rock/glacial debris in the water column will degrade performance.
 - A successful mapping campaign requires good acquisition timing. When mapping in marine environments, large algal blooms must be avoided, and when mapping rivers and lakes, water quality, turbulence, whitewater and rapids, and biomass in the water will either absorb or scatter laser energy. Timing the perfect acquisition window with commercially available sensors can be challenging.
 - Classifying a bathymetric point cloud is challenging, especially in low-density datasets where a geometric or statistical approach begins to fail and one must resort to more manual interpretation. 
