@@ -31,7 +31,6 @@ This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathy
     - [Websites](#websites)
 - [Appendix](#appendix)
   - [List of ALB Datasets](#list-of-alb-datasets)
-    - [Rivers](#rivers)
 
 ## How to Contribute
 The intention is that the manual has a broad ownership and changes can be proposed via pull requests or by submitting issues that we will follow up.
@@ -190,55 +189,73 @@ Curated list of references, standards, and additional reading materials relevant
 # Appendix
 Supporting documents, templates, and supplementary information useful for ALB project execution and management.
 ## List of ALB Datasets
-### Rivers
-| Dataset                                                                                       | Acquisition Year   | Contractor                  | Dataset Owner   |
-|:----------------------------------------------------------------------------------------------|:-------------------|:----------------------------|:----------------|
-| [NVE Gudbrandsdalslågen (2016)](https://example.com/nve-gudbrandsdalslagen)                   | 2016               | TerraTec                    | NVE             |
-| [NVE Driva (2016)](https://example.com/nve-driva)                                             | 2016               | TerraTec                    | NVE             |
-| [NVE Skiens og Porsgrunnselva (2016)](https://example.com/nve-skiens-og-porsgrunnselva)       | 2016               | TerraTec                    | NVE             |
-| [NVE Storelva Randselva Begna (2016)](https://example.com/nve-storelva-randselva-begna)       | 2016               | TerraTec                    | NVE             |
-| [NVE Gaula (2016)](https://example.com/nve-gaula)                                             | 2016               | TerraTec                    | NVE             |
-| [NVE Mandalselva (2016)](https://example.com/nve-mandalselva)                                 | 2016               | TerraTec                    | NVE             |
-| [NVE Eidselva 5pkt (2017)](https://example.com/nve-eidselva-5pkt)                             | 2017               | TerraTec                    | NVE             |
-| [NVE Etneelva 5pkt (2017)](https://example.com/nve-etneelva-5pkt)                             | 2017               | TerraTec                    | NVE             |
-| [NVE Nausta 5pkt (2017)](https://example.com/nve-nausta-5pkt)                                 | 2017               | TerraTec                    | NVE             |
-| [Hafslund Geilo (2017)](https://example.com/hafslund-geilo)                                   | 2017               | AHM                         | Hafslund        |
-| [Hafslund Gol (2017)](https://example.com/hafslund-gol)                                       | 2017               | AHM                         | Hafslund        |
-| [Hafslund Nes (2017)](https://example.com/hafslund-nes)                                       | 2017               | AHM                         | Hafslund        |
-| [NVE Figgjo 5pkt (2017)](https://example.com/nve-figgjo-5pkt)                                 | 2017               | TerraTec                    | NVE             |
-| [NVE Hååna (2017/2018/2019)](https://example.com/nve-haana)                                   | 2017/2018/2019     | TerraTec                    | NVE             |
-| [NVE Kvina og Litleåna (2017/2018/2019)](https://example.com/nve-kvina-og-litleana)           | 2017/2018/2019     | TerraTec og AHM             | NVE             |
-| [Hafslund Hallingdal Holselva (2018)](https://example.com/hafslund-hallingdal-holselva)       | 2018               | AHM                         | Hafslund        |
-| [Hafslund Hallingdal Torpo (2018)](https://example.com/hafslund-hallingdal-torpo)             | 2018               | AHM                         | Hafslund        |
-| [Hafslund Hovet (2018)](https://example.com/hafslund-hovet)                                   | 2018               | AHM                         | Hafslund        |
-| [NVE Flaum Skjolden i Luster (2018)](https://example.com/nve-flaum-skjolden-i-luster)         | 2018               | TerraTec                    | NVE             |
-| [Hafslund Hallingdal Ål (2018)](https://example.com/hafslund-hallingdal-al)                   | 2018               | AHM                         | Hafslund        |
-| [NVE Tovdalselva (2018)](https://example.com/nve-tovdalselva)                                 | 2018               | TerraTec                    | NVE             |
-| [NVE Opo (2018)](https://example.com/nve-opo)                                                 | 2018               | TerraTec                    | NVE             |
-| [NVE Lærdal (2018)](https://example.com/nve-laerdal)                                          | 2018               | AHM                         | NVE             |
-| [NVE Nidelva (2018)](https://example.com/nve-nidelva)                                         | 2018               | TerraTec                    | NVE             |
-| [NVE Flåmselvi (2018)](https://example.com/nve-flamselvi)                                     | 2018               | TerraTec                    | NVE             |
-| [NVE Rauma (2018)](https://example.com/nve-rauma)                                             | 2018               | TerraTec                    | NVE             |
-| [NVE Vosso 5pkt (2018)](https://example.com/nve-vosso-5pkt)                                   | 2018               | TerraTec                    | NVE             |
-| [NVE Numedalslågen (2018)](https://example.com/nve-numedalslagen)                             | 2018               | TerraTec                    | NVE             |
-| [SVV RV7 Lindelien - Kittilsviki (2020)](https://example.com/svv-rv7-lindelien---kittilsviki) | 2020               | Nearshore Survey / Terratec | SVV             |
-| [NVE dronetest Figgjo (2020)](https://example.com/nve-dronetest-figgjo)                       | 2020               | Nordic Unmanned             | NVE             |
-| [NDH Krøderen Riegl 880 (2021)](https://example.com/ndh-kroderen-riegl-880)                   | 2021               | AHM                         | NDH             |
-| [NDH Bøelva MBES (2021)](https://example.com/ndh-boelva-mbes)                                 | 2021               | Styvehavn                   | NDH             |
-| [NDH Tangeelva Riegl 880 (2021)](https://example.com/ndh-tangeelva-riegl-880)                 | 2021               | Terratec                    | NDH             |
-| [NDH Tangeelva Chiroptera (2021)](https://example.com/ndh-tangeelva-chiroptera)               | 2021               | Hexagon                     | NDH             |
-| [NDH Glomma CZMIL (2021)](https://example.com/ndh-glomma-czmil)                               | 2021               | Terratec                    | NDH             |
-| [NDH Glomma Chiroptera (2021)](https://example.com/ndh-glomma-chiroptera)                     | 2021               | Hexagon                     | NDH             |
-| [NDH Krøderen MBES (2021)](https://example.com/ndh-kroderen-mbes)                             | 2021               | Styvehavn                   | NDH             |
-| [NDH Krøderen Riegl 840 (2021)](https://example.com/ndh-kroderen-riegl-840)                   | 2021               | Terratec                    | NDH             |
-| [NDH Bøelva Riegl 880 (2021)](https://example.com/ndh-boelva-riegl-880)                       | 2021               | AHM                         | NDH             |
-| [NDH Selbusjøen CZMIL (2021)](https://example.com/ndh-selbusjoen-czmil)                       | 2021               | Terratec                    | NDH             |
-| [NDH Selbusjøen Chiroptera (2021)](https://example.com/ndh-selbusjoen-chiroptera)             | 2021               | Hexagon                     | NDH             |
-| [NDH Bøelva Chiroptera (2021)](https://example.com/ndh-boelva-chiroptera)                     | 2021               | Hexagon                     | NDH             |
-| [NDH Bøelva Riegl 840 (2021)](https://example.com/ndh-boelva-riegl-840)                       | 2021               | Terratec                    | NDH             |
-| [NDH Lærdalselvi Riegl 880 (2021)](https://example.com/ndh-laerdalselvi-riegl-880)            | 2021               | AHM                         | NDH             |
-| [NDH Lærdalselvi Riegl 840 (2021)](https://example.com/ndh-laerdalselvi-riegl-840)            | 2021               | TerraTec                    | NDH             |
-| [NDH Lærdalselvi CZMIL (2021)](https://example.com/ndh-laerdalselvi-czmil)                    | 2021               | Terratec                    | NDH             |
-| [NDH Glomma MBES (2021)](https://example.com/ndh-glomma-mbes)                                 | 2021               | Styvehavn                   | NDH             |
-| [NDH Krøderen CZMIL (2021)](https://example.com/ndh-kroderen-czmil)                           | 2021               | Terratec                    | NDH             |
-| [NDH Selbusjøen MBES (2021)](https://example.com/ndh-selbusjoen-mbes)                         | 2021               | Styvehavn                   | NDH             |
+
+| Dataset                                                                                          | Acquisition Year   | Contractor                     | Dataset Owner     |
+|:-------------------------------------------------------------------------------------------------|:-------------------|:-------------------------------|:------------------|
+| [Batymetri Fjøløy 2013](https://hoydedata.no/laserinnsyn2?id=5327)                               | 2013               | Statens Kartverk Sjødivisjonen | Kartverket        |
+| [Hafslund Elvekartlegging Geilo 2015](https://hoydedata.no/laserinnsyn2?id=6122)                 | 2015               | Statens Kartverk               | Hafslund-Eco      |
+| [Hafslund Elvekartlegging Gol 2015](https://hoydedata.no/laserinnsyn2?id=6123)                   | 2015               | Statens Kartverk               | Hafslund-Eco      |
+| [Hafslund Elvekartlegging Hallingdalselve Hol 2015](https://hoydedata.no/laserinnsyn2?id=6126)   | 2015               | Statens Kartverk               | Hafslund-Eco      |
+| [Hafslund Elvekartlegging Hallingdalselve Torpo 2015](https://hoydedata.no/laserinnsyn2?id=6127) | 2015               | Statens Kartverk               | Hafslund-Eco      |
+| [Hafslund Elvekartlegging Hovet 2015](https://hoydedata.no/laserinnsyn2?id=6129)                 | 2015               | Statens Kartverk               | Hafslund-Eco      |
+| [Hafslund Elvekartlegging Nes 2015](https://hoydedata.no/laserinnsyn2?id=6128)                   | 2015               | Statens Kartverk               | Hafslund-Eco      |
+| [Hafslund Elvekartlegging Ål 2015](https://hoydedata.no/laserinnsyn2?id=6124)                    | 2015               | Statens Kartverk               | Hafslund-Eco      |
+| [NVE Driva 2016](https://hoydedata.no/laserinnsyn2?id=871)                                       | 2016               | Terratec AS                    | NVE               |
+| [NVE Gaula 2016](https://hoydedata.no/laserinnsyn2?id=881)                                       | 2016               | Terratec AS                    | NVE               |
+| [NVE Gudbrandsdalslågen 2016](https://hoydedata.no/laserinnsyn2?id=1031)                         | 2016               | Terratec AS                    | NVE               |
+| [NVE Mandalselva 2016](https://hoydedata.no/laserinnsyn2?id=829)                                 | 2016               | Terratec AS                    | NVE               |
+| [NVE Skiens og Porsgrunnselva 2016](https://hoydedata.no/laserinnsyn2?id=828)                    | 2016               | Terratec AS                    | NVE               |
+| [NVE Storelva Randselva Begna 2016](https://hoydedata.no/laserinnsyn2?id=873)                    | 2016               | Terratec AS                    | NVE               |
+| [Batymetri Søre Sunnmøre 2017](https://hoydedata.no/laserinnsyn2?id=910)                         | 2017               | Statens Kartverk               | Kartverket        |
+| [Hornindalsvatnet dybde 2017](https://hoydedata.no/laserinnsyn2?id=1137)                         | 2017               | Statens Kartverk               | Miljødirektoratet |
+| [NDH Søre Sunnmøre dybdedata 2017](https://hoydedata.no/laserinnsyn2?id=876)                     | 2017               | Terratec AS                    | Kartverket        |
+| [NVE Eidselva 5pkt 2017](https://hoydedata.no/laserinnsyn2?id=3754)                              | 2017               | Terratec AS                    | NVE               |
+| [NVE Etneelva 5pkt 2017](https://hoydedata.no/laserinnsyn2?id=3753)                              | 2017               | Terratec AS                    | NVE               |
+| [NVE Figgjo 5pkt 2017](https://hoydedata.no/laserinnsyn2?id=3752)                                | 2017               | Terratec AS                    | NVE               |
+| [NVE Nausta 5pkt 2017](https://hoydedata.no/laserinnsyn2?id=3751)                                | 2017               | Terratec AS                    | NVE               |
+| [Selbusjøen dybde 2017](https://hoydedata.no/laserinnsyn2?id=1115)                               | 2017               | Statens Kartverk               | Miljødirektoratet |
+| [NVE Hååna (2017/2018/2019)](https://nve.no)                                                     | 2017/2018/2019     | TerraTec                       | NVE               |
+| [NVE Kvina og Litleåna (2017/2018/2019)](https://nve.no)                                         | 2017/2018/2019     | TerraTec og AHM                | NVE               |
+| [Eikesdalsvatnet dybde 2018](https://hoydedata.no/laserinnsyn2?id=1142)                          | 2018               | Statens Kartverk               | Miljødirektoratet |
+| [NVE - Litleåna-Kvina 4pkt 2018](https://hoydedata.no/laserinnsyn2?id=5432)                      | 2018               | Terratec AS                    | NVE               |
+| [NVE Flåmselvi 2018](https://hoydedata.no/laserinnsyn2?id=1018)                                  | 2018               | Terratec AS                    | NVE               |
+| [NVE Hååna 5pkt 2018](https://hoydedata.no/laserinnsyn2?id=5049)                                 | 2018               | Terratec AS                    | NVE               |
+| [NVE Jølstra-Anga 5pkt 2018](https://hoydedata.no/laserinnsyn2?id=5050)                          | 2018               | Terratec AS                    | NVE               |
+| [NVE Lærdal 2018](https://hoydedata.no/laserinnsyn2?id=1091)                                     | 2018               | Statens Kartverk               | NVE               |
+| [NVE Lærdalselva 5pkt 2018](https://hoydedata.no/laserinnsyn2?id=5060)                           | 2018               | Terratec AS                    | NVE               |
+| [NVE Nidelva 2018](https://hoydedata.no/laserinnsyn2?id=1019)                                    | 2018               | Terratec AS                    | NVE               |
+| [NVE Numedalslågen 2018](https://hoydedata.no/laserinnsyn2?id=1029)                              | 2018               | Terratec AS                    | NVE               |
+| [NVE Opo 2018](https://hoydedata.no/laserinnsyn2?id=1020)                                        | 2018               | Terratec AS                    | NVE               |
+| [NVE Rauma 2018](https://hoydedata.no/laserinnsyn2?id=1016)                                      | 2018               | Terratec AS                    | NVE               |
+| [NVE Tovdalselva 2018](https://hoydedata.no/laserinnsyn2?id=1015)                                | 2018               | Terratec AS                    | NVE               |
+| [NVE Vosso 5pkt 2018](https://hoydedata.no/laserinnsyn2?id=5031)                                 | 2018               | Terratec AS                    | NVE               |
+| [Salvatnet dybde 2018](https://hoydedata.no/laserinnsyn2?id=1139)                                | 2018               | Statens Kartverk               | Miljødirektoratet |
+| [Hovsvatn dybde 13pkt 2019](https://hoydedata.no/laserinnsyn2?id=1173)                           | 2019               | Terratec AS                    | Nye Veier         |
+| [NVE dronetest Figgjo (2020)](https://nve.no)                                                    | 2020               | Nordic Unmanned                | NVE               |
+| [SVV RV7 Lindelien - Kittilsviki (2020)](https://vegvesen.no)                                    | 2020               | Nearshore Survey / Terratec    | SVV               |
+| [Dybdedata Randselva-Storelva 2020](https://hoydedata.no/laserinnsyn2?id=4224)                   | 2020               | Statens Kartverk               | Ringerike kommune |
+| [Fjøløy vår -MGK ALB Pilot 2021](https://hoydedata.no/laserinnsyn2?id=5597)                      | 2021               | Terratec AS                    | Kartverket        |
+| [NDH Bøelva Chiroptera 2021](https://hoydedata.no/laserinnsyn2?id=5799)                          | 2021               | Hexagon                        | NDH               |
+| [NDH Bøelva Riegl 840 (2021)](https://kartverket.no)                                             | 2021               | Terratec                       | NDH               |
+| [NDH Bøelva Riegl 880 (2021)](https://kartverket.no)                                             | 2021               | AHM                            | NDH               |
+| [NDH Glomma CZMIL 2021](https://hoydedata.no/laserinnsyn2?id=5794)                               | 2021               | Terratec AS                    | NDH               |
+| [NDH Glomma Chiroptera 2021](https://hoydedata.no/laserinnsyn2?id=5798)                          | 2021               | Hexagon                        | NDH               |
+| [NDH Glomma MBES 2021](https://hoydedata.no/laserinnsyn2?id=5803)                                | 2021               | Statens Kartverk               | NDH               |
+| [NDH Krøderen CZMIL 2021](https://hoydedata.no/laserinnsyn2?id=5796)                             | 2021               | Terratec AS                    | NDH               |
+| [NDH Krøderen Riegl 840 (2021)](https://kartverket.no)                                           | 2021               | Terratec                       | NDH               |
+| [NDH Krøderen Riegl 880 (2021)](https://kartverket.no)                                           | 2021               | AHM                            | NDH               |
+| [NDH Lærdalselvi CZMIL 2021](https://hoydedata.no/laserinnsyn2?id=5795)                          | 2021               | Terratec AS                    | NDH               |
+| [NDH Lærdalselvi Riegl 840 (2021)](https://kartverket.no)                                        | 2021               | TerraTec                       | NDH               |
+| [NDH Lærdalselvi Riegl 880 (2021)](https://kartverket.no)                                        | 2021               | AHM                            | NDH               |
+| [NDH Selbusjøen CZMIL 2021](https://hoydedata.no/laserinnsyn2?id=5797)                           | 2021               | Terratec AS                    | NDH               |
+| [NDH Selbusjøen Chiroptera 2021](https://hoydedata.no/laserinnsyn2?id=5800)                      | 2021               | Hexagon                        | NDH               |
+| [NDH Tangeelva Riegl 880 (2021)](https://kartverket.no)                                          | 2021               | AHM                            | NDH               |
+| [NDH Tangelva Chiroptera 2021](https://hoydedata.no/laserinnsyn2?id=5801)                        | 2021               | Hexagon                        | NDH               |
+| [NDH Topobaty Bliksvær 2021](https://hoydedata.no/laserinnsyn2?id=5436)                          | 2021               | Terratec AS                    | NDH               |
+| [NDH Topobaty Helligvær 2021](https://hoydedata.no/laserinnsyn2?id=5435)                         | 2021               | Terratec AS                    | NDH               |
+| NVE - 2023/2023/2024                                                                             |                    |                                | NVE               | 
+| Hafslund Eco - 2023/2023/2024                                                                    |                    |                                | Hafslund-Eco      |
+| Skagerak Energi - 2023/2023/2024                                                                 |                    |                                | Skagerak Energi   | 
+| [Beiarelva Batymetri 2023](https://hoydedata.no/laserinnsyn2?id=6142)                            | 2023               | Field                          | Geovekst          |
+| [Fauske Batymetri 2023](https://hoydedata.no/laserinnsyn2?id=6142)                               | 2023               | Field                          | Geovekst          |
+| [Færder topobathy 2024](https://hoydedata.no/laserinnsyn2?id=6142)                               | 2024               | Hexagon                        | Geovekst          |
