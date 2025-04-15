@@ -15,6 +15,9 @@ This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathy
     - [Strengths](#strengths)
     - [Limitations](#limitations)
 - [ALB Use Cases in Norway](#alb-use-cases-in-norway)
+  - [River surveys](#river-surveys)
+  - [Lake and reservoir surveys](#lake-and-reservoir-surveys)
+  - [Marine surveys](#marine-surveys)
 - [ALB Procurement Process](#alb-procurement-process)
 - [ALB Project Workflow](#alb-project-workflow)
 - [Example Specifications](#example-specifications)
@@ -27,6 +30,8 @@ This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathy
     - [Reports / Technical Documentation](#reports--technical-documentation)
     - [Websites](#websites)
 - [Appendix](#appendix)
+  - [List of ALB Datasets](#list-of-alb-datasets)
+    - [Rivers](#rivers)
 
 ## How to Contribute
 The intention is that the manual has a broad ownership and changes can be proposed via pull requests or by submitting issues that we will follow up.
@@ -95,12 +100,30 @@ Norwegian government agencies have been evaluating the potential of the ALB sens
 
 The evolution of ALB sensor technologies has been high and in 2019 the current generation of Riegl, Hexagon and Optech sensors were evaluated by an ALB working group over a range of river types. However, the delivery was not a direct comparative study of sensors, but rather an in-depth investigation into the use of ALB as a tool for more efficient management of rivers and freshwater bodies. 
 
-- River surveys 
-Since 2019, NVE, Skagerak Energi and Hafslund Eco have mapped more than 30 rivers and ALB is the de facto dataset that provides input for accurate hydraulic models and hydro-morphological analyses, such as monitoring sediment transport and erosion over time and simulating flood mitigation programs. <Link to list of rivers> 
-- Lake and reservoir surveys
-To create a seamless elevation model and provide a dataset suitable for habitat and ecosystem management, ALB has been used to complement multibeam measurements. ALB has also been used to accurately map hydroelectric reservoirs to monitor sedimentation and facilitate volume estimation. <Link to list of lakes> 
-- Marine surveys 
-A number of ALB surveys have been conducted in the marine environment with the intention of providing a set of test areas from different parts of Norway where one can investigate ALB as a source for coastal habitat mapping. ALB is also an important tool for producing hazard maps for fast clay landslides near the coastal zone. <Link to list of marine datasets>.
+## River surveys 
+Since 2019, NVE, Skagerak Energi and Hafslund Eco have mapped more than 30 rivers and ALB is the de facto dataset that provides input for accurate hydraulic models and hydro-morphological analyses, such as monitoring sediment transport and erosion over time and simulating flood mitigation programs.
+- 2021 Bøelva
+- 2021 Lærdalselva
+- 2021 Lærdalselva Drone
+- 2021 Glomma
+- 2021 Tangelva, Gjermåa and Leira
+- 2021 Hallingdalselven
+
+
+## Lake and reservoir surveys
+To create a seamless elevation model and provide a dataset suitable for habitat and ecosystem management, ALB has been used to complement multibeam measurements. ALB has also been used to accurately map hydroelectric reservoirs to monitor sedimentation and facilitate volume estimation.
+- 2018 Benna
+- 2020 Benna
+- 2021 Selbusjøen
+- 2021 Krøderen
+  
+## Marine surveys 
+A number of ALB surveys have been conducted in the marine environment with the intention of providing a set of test areas from different parts of Norway where one can investigate ALB as a source for coastal habitat mapping. ALB is also an important tool for producing hazard maps for fast clay landslides near the coastal zone. 
+- 2021 Helligvær
+- 2021 Bliksvær
+- 2021 Fjøløy
+- 2023 Fauske
+- 2024 Færder Nasjonalpark
 
 # ALB Procurement Process
 
@@ -166,4 +189,56 @@ Curated list of references, standards, and additional reading materials relevant
 
 # Appendix
 Supporting documents, templates, and supplementary information useful for ALB project execution and management.
-
+## List of ALB Datasets
+### Rivers
+| Dataset                                                                                       | Acquisition Year   | Contractor                  | Dataset Owner   |
+|:----------------------------------------------------------------------------------------------|:-------------------|:----------------------------|:----------------|
+| [NVE Gudbrandsdalslågen (2016)](https://example.com/nve-gudbrandsdalslagen)                   | 2016               | TerraTec                    | NVE             |
+| [NVE Driva (2016)](https://example.com/nve-driva)                                             | 2016               | TerraTec                    | NVE             |
+| [NVE Skiens og Porsgrunnselva (2016)](https://example.com/nve-skiens-og-porsgrunnselva)       | 2016               | TerraTec                    | NVE             |
+| [NVE Storelva Randselva Begna (2016)](https://example.com/nve-storelva-randselva-begna)       | 2016               | TerraTec                    | NVE             |
+| [NVE Gaula (2016)](https://example.com/nve-gaula)                                             | 2016               | TerraTec                    | NVE             |
+| [NVE Mandalselva (2016)](https://example.com/nve-mandalselva)                                 | 2016               | TerraTec                    | NVE             |
+| [NVE Eidselva 5pkt (2017)](https://example.com/nve-eidselva-5pkt)                             | 2017               | TerraTec                    | NVE             |
+| [NVE Etneelva 5pkt (2017)](https://example.com/nve-etneelva-5pkt)                             | 2017               | TerraTec                    | NVE             |
+| [NVE Nausta 5pkt (2017)](https://example.com/nve-nausta-5pkt)                                 | 2017               | TerraTec                    | NVE             |
+| [Hafslund Geilo (2017)](https://example.com/hafslund-geilo)                                   | 2017               | AHM                         | Hafslund        |
+| [Hafslund Gol (2017)](https://example.com/hafslund-gol)                                       | 2017               | AHM                         | Hafslund        |
+| [Hafslund Nes (2017)](https://example.com/hafslund-nes)                                       | 2017               | AHM                         | Hafslund        |
+| [NVE Figgjo 5pkt (2017)](https://example.com/nve-figgjo-5pkt)                                 | 2017               | TerraTec                    | NVE             |
+| [NVE Hååna (2017/2018/2019)](https://example.com/nve-haana)                                   | 2017/2018/2019     | TerraTec                    | NVE             |
+| [NVE Kvina og Litleåna (2017/2018/2019)](https://example.com/nve-kvina-og-litleana)           | 2017/2018/2019     | TerraTec og AHM             | NVE             |
+| [Hafslund Hallingdal Holselva (2018)](https://example.com/hafslund-hallingdal-holselva)       | 2018               | AHM                         | Hafslund        |
+| [Hafslund Hallingdal Torpo (2018)](https://example.com/hafslund-hallingdal-torpo)             | 2018               | AHM                         | Hafslund        |
+| [Hafslund Hovet (2018)](https://example.com/hafslund-hovet)                                   | 2018               | AHM                         | Hafslund        |
+| [NVE Flaum Skjolden i Luster (2018)](https://example.com/nve-flaum-skjolden-i-luster)         | 2018               | TerraTec                    | NVE             |
+| [Hafslund Hallingdal Ål (2018)](https://example.com/hafslund-hallingdal-al)                   | 2018               | AHM                         | Hafslund        |
+| [NVE Tovdalselva (2018)](https://example.com/nve-tovdalselva)                                 | 2018               | TerraTec                    | NVE             |
+| [NVE Opo (2018)](https://example.com/nve-opo)                                                 | 2018               | TerraTec                    | NVE             |
+| [NVE Lærdal (2018)](https://example.com/nve-laerdal)                                          | 2018               | AHM                         | NVE             |
+| [NVE Nidelva (2018)](https://example.com/nve-nidelva)                                         | 2018               | TerraTec                    | NVE             |
+| [NVE Flåmselvi (2018)](https://example.com/nve-flamselvi)                                     | 2018               | TerraTec                    | NVE             |
+| [NVE Rauma (2018)](https://example.com/nve-rauma)                                             | 2018               | TerraTec                    | NVE             |
+| [NVE Vosso 5pkt (2018)](https://example.com/nve-vosso-5pkt)                                   | 2018               | TerraTec                    | NVE             |
+| [NVE Numedalslågen (2018)](https://example.com/nve-numedalslagen)                             | 2018               | TerraTec                    | NVE             |
+| [SVV RV7 Lindelien - Kittilsviki (2020)](https://example.com/svv-rv7-lindelien---kittilsviki) | 2020               | Nearshore Survey / Terratec | SVV             |
+| [NVE dronetest Figgjo (2020)](https://example.com/nve-dronetest-figgjo)                       | 2020               | Nordic Unmanned             | NVE             |
+| [NDH Krøderen Riegl 880 (2021)](https://example.com/ndh-kroderen-riegl-880)                   | 2021               | AHM                         | NDH             |
+| [NDH Bøelva MBES (2021)](https://example.com/ndh-boelva-mbes)                                 | 2021               | Styvehavn                   | NDH             |
+| [NDH Tangeelva Riegl 880 (2021)](https://example.com/ndh-tangeelva-riegl-880)                 | 2021               | Terratec                    | NDH             |
+| [NDH Tangeelva Chiroptera (2021)](https://example.com/ndh-tangeelva-chiroptera)               | 2021               | Hexagon                     | NDH             |
+| [NDH Glomma CZMIL (2021)](https://example.com/ndh-glomma-czmil)                               | 2021               | Terratec                    | NDH             |
+| [NDH Glomma Chiroptera (2021)](https://example.com/ndh-glomma-chiroptera)                     | 2021               | Hexagon                     | NDH             |
+| [NDH Krøderen MBES (2021)](https://example.com/ndh-kroderen-mbes)                             | 2021               | Styvehavn                   | NDH             |
+| [NDH Krøderen Riegl 840 (2021)](https://example.com/ndh-kroderen-riegl-840)                   | 2021               | Terratec                    | NDH             |
+| [NDH Bøelva Riegl 880 (2021)](https://example.com/ndh-boelva-riegl-880)                       | 2021               | AHM                         | NDH             |
+| [NDH Selbusjøen CZMIL (2021)](https://example.com/ndh-selbusjoen-czmil)                       | 2021               | Terratec                    | NDH             |
+| [NDH Selbusjøen Chiroptera (2021)](https://example.com/ndh-selbusjoen-chiroptera)             | 2021               | Hexagon                     | NDH             |
+| [NDH Bøelva Chiroptera (2021)](https://example.com/ndh-boelva-chiroptera)                     | 2021               | Hexagon                     | NDH             |
+| [NDH Bøelva Riegl 840 (2021)](https://example.com/ndh-boelva-riegl-840)                       | 2021               | Terratec                    | NDH             |
+| [NDH Lærdalselvi Riegl 880 (2021)](https://example.com/ndh-laerdalselvi-riegl-880)            | 2021               | AHM                         | NDH             |
+| [NDH Lærdalselvi Riegl 840 (2021)](https://example.com/ndh-laerdalselvi-riegl-840)            | 2021               | TerraTec                    | NDH             |
+| [NDH Lærdalselvi CZMIL (2021)](https://example.com/ndh-laerdalselvi-czmil)                    | 2021               | Terratec                    | NDH             |
+| [NDH Glomma MBES (2021)](https://example.com/ndh-glomma-mbes)                                 | 2021               | Styvehavn                   | NDH             |
+| [NDH Krøderen CZMIL (2021)](https://example.com/ndh-kroderen-czmil)                           | 2021               | Terratec                    | NDH             |
+| [NDH Selbusjøen MBES (2021)](https://example.com/ndh-selbusjoen-mbes)                         | 2021               | Styvehavn                   | NDH             |
