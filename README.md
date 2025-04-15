@@ -42,13 +42,26 @@ A LiDAR sensor measures the distance to a target by measuring the time between t
 
 The ALB is the most widely used type of LiDAR for river studies that require a high degree of mapping accuracy, such as environmental river studies, sediment transport studies, and flood modeling. Currently, a variety of bathymetric LiDAR sensors are commercially available, defined by their technical specifications such as laser energy per pulse, laser footprint, and maximum detectable depth. 
 
-The ALB verification project collected datasets from the following sensors available on the European market in 2021: Riegl VQ880-G, Riegl VQ840-G, Leica Chiroptera 4X and the Teledyne Optech CZMIL SuperNova. All three sensor manufacturers have since released updated systems, and the drone based YellowScan bathymetric LiDAR system has also gained market traction. 
-
 Sensor types range from heavy, high-energy systems that require fixed-wing aircraft to smaller, lighter, low-energy sensors that can be mounted on a drone. The choice of sensor for bathymetric mapping depends primarily on the size of the project, whether the surrounding topography allows safe operation with fixed-wing aircraft, and sensor availability. 
 
-The Teledyne Optech CZMIL (Coastal Zone Mapping and Imaging LiDAR) and the Leica Chiroptera 4X are airborne multi-frequency sensors used for mapping topographic surfaces and coastal zones, and their high laser energy per pulse characteristics make them particularly suitable for mapping deep depths such as those found in coastal applications. However, the higher laser penetration capabilities of CZMIL and Chiroptera come at the expense of point density, as laser energy and point density are negatively correlated.
+[Gottfried Mandlburger](https://orcid.org/0000-0002-2332-293X), a scholar at TU Wien, has over the years been following the advances of ALB sensors and has nominated the following categories as a rudimentary classification:
 
-The Riegl VQ880-G, on the other hand, is an airborne topo-bathy sensor with lower laser energy per pulse and a smaller footprint compared to the high energy systems, which can map with much higher point density but less water penetration. The Riegl VQ840-G is another topo-bathy sensor that is much lighter than traditional bathymetric LiDAR sensors and can therefore be operated from an unmanned aerial vehicle or helicopter. 
+| Deep Bathymetric Sensors | Shallow Bathymetric Sensors |
+|------------------------|----------------------------|
+| • ~3× Secchi depth (i.e. 50 m @ k=0.1) | • ~1.5× Secchi depth (i.e. 25 m @ k=0.1) |
+| • High pulse energy (5–7 mJ) | • Low to medium pulse energy (0.02–0.1 mJ) |
+| • Low pulse repetition rate (3–10 kHz) | • High pulse repetition rate (35–550 kHz) |
+| • Long pulses (2–6.5 ns = 60–200 cm) | • Short pulses (1.2–2 ns = 36–60 cm) |
+| • Large laser footprints (3.5 m @ 500 m AGL) | • Small laser footprints (50 cm @ 500 m AGL) |
+| • Low spatial resolution | • High spatial resolution |
+| • Focus: maximum penetration | • Focus: high definition in littoral zone, rivers, etc. |
+| • Application: charting coastal waters, object detection | • Application: flood simulation, habitat modelling, hydro-morphodynamics, etc. |
+
+The Teledyne Optech CZMIL, the Fugro RAMMS and the Leica Chiroptera Series are airborne multi-frequency sensors used for mapping topographic surfaces and coastal zones, and their high laser energy per pulse characteristics make them particularly suitable for mapping deep depths such as those found in coastal applications. However, the higher laser penetration capabilities of the 3xSecci sensors come at the expense of point density, as laser energy and footprint are negatively correlated.
+
+The Riegl VQ880, on the other hand, is an airborne topo-bathy sensor with lower laser energy per pulse and a smaller footprint compared to the high energy systems, which can map with much higher point density but less water penetration. The Riegl VQ840/VQ860 is another topo-bathy sensor that is much lighter than the traditional bathymetric LiDAR sensors and can therefore be operated from an unmanned aerial vehicle or helicopter. Furthermore, pure drone based systems are also available such as the Yellowscan bathymetric LiDAR system. 
+
+Please note that the this deep vs shallow division does not apply to all sensors as some can be configured to operate in both or hybrid mode. It is thus importand to be clear in the procurement documents what the end use of the dataset will be in order for the contractor to select the suitable sensor and/or set the suitable acquisition parameters. 
 
 Although they share many of the same sensor components and virtually the same measurement principles, an ALB system differs significantly from a classic ALS setup. Due to the air-water-air propagation, a measurement with an ALB sensor is a function of significant limiting factors and will be more difficult to process than the ALS measurement where the light propagates only in the air. This is illustrated in the following figure by Mandlburger (2022) in his article summarizing the available active and passive methods used in bathymetric surveys. 
 
@@ -97,11 +110,17 @@ A quality control check of the delivered dataset should be performed as soon as 
 **ALB (Airborne LiDAR Bathymetry)**  
 A remote sensing technology using aircraft-mounted LiDAR sensors to measure seafloor and underwater terrain in shallow coastal and inland waters.
 
+**k value**
+Define k value here
+
 **LiDAR (Light Detection and Ranging)**  
 A remote sensing method that uses light in the form of a pulsed laser to measure variable distances to the Earth.
 
 **LAS/LAZ (LAS/LAZ file format)**  
-File format designed for the interchange and archiving of lidar point cloud data. LAZ is a lossless compressed version. 
+File format designed for the interchange and archiving of lidar point cloud data. LAZ is a lossless compressed version.
+
+**SECCI**
+Define SECCI here
 
 # References
 Curated list of references, standards, and additional reading materials relevant to ALB practices.
