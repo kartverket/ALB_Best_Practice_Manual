@@ -125,7 +125,7 @@ Step-by-step guide through the lifecycle of an ALB project, from planning and aq
 # Example Specifications
 The following technical specifications have been used by NVE and others over the past year and can be used as a template for bathymetry procurement. We have had mixed experience with the combination of ALB and multibeam bathymetry in a single contract, and we generally recommend that you first map with ALB and then bid out the infill survey with MBES in a separate tender. The specifications function as both ToR (Terms of Reference) and TS (Technical Specification) and are based on the requirements set by Kartverket standards. 
 ## Example ALB Specification 
-- [ALB_Technical_Spesification_2025_v1.docx](/files/ALB_Technical_Spesification_2025_v1.docx)
+- [ALB_Technical_Spesification_2025_v1.docx](/files/ALB_Technical_Spesification_2025_v1.docx) (download using 'raw' button on right hand side)
 
 ## Example MBES Specification
 *_WORK IN PROGRESS - ETA MAY 2025_*
