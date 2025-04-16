@@ -21,6 +21,8 @@ This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathy
 - [ALB Procurement Process](#alb-procurement-process)
 - [ALB Project Workflow](#alb-project-workflow)
 - [Example Specifications](#example-specifications)
+  - [Example ALB Specification](#example-alb-specification)
+  - [Example MBES Specification](#example-mbes-specification)
 - [Quality Control](#quality-control)
 - [Glossary](#glossary)
 - [References](#references)
@@ -114,17 +116,21 @@ A number of ALB surveys have been carried out in the marine environment with the
 
 Guidelines and recommendations on procuring ALB services, including tendering, specifications, and evaluation criteria.
 
-*_WORK IN PROGRESS_*
+*_WORK IN PROGRESS - ETA MAY 2025_*
 
 # ALB Project Workflow
 
-Step-by-step guide through the lifecycle of an ALB project, from planning and execution to data analysis and dissemination.
+Step-by-step guide through the lifecycle of an ALB project, from planning and aquisition to quality control and project termination.
 
-*_WORK IN PROGRESS_*
+*_WORK IN PROGRESS - ETA MAY 2025_*
 
 # Example Specifications
+The following technical specifications have been used by NVE and others over the past year and can be used as a template for bathymetry procurement. We have had mixed experience with the combination of ALB and multibeam bathymetry in a single contract, and we generally recommend that you first map with ALB and then bid out the infill survey with MBES in a separate tender. The specifications function as both ToR (Terms of Reference) and TS (Technical Specification) and are based on the requirements set by Kartverket standards. 
+## Example ALB Specification 
+- [ALB_Technical_Spesification_2025_v1.docx](/files/ALB_Technical_Spesification_2025_v1.docx)
 
-Sample technical specifications and quality requirements for ALB projects.
+## Example MBES Specification
+*_WORK IN PROGRESS - ETA MAY 2025_*
 
 # Quality Control 
 A quality control check of the delivered dataset should be performed as soon as possible to identify deficiencies in the raw dataset as well as errors in the delivery format, report, and metadata. A minimum QC regime based on QGIS and PDAL can be found [here](/qc/ALB_QC_Steps.md).
@@ -133,17 +139,23 @@ A quality control check of the delivered dataset should be performed as soon as 
 **ALB (Airborne LiDAR Bathymetry)**  
 A remote sensing technology using aircraft-mounted LiDAR sensors to measure seafloor and underwater terrain in shallow coastal and inland waters.
 
-**k value**
-Define k value here
+**K Value (Diffuse Attenuation Coefficient)**  
+The K value, or diffuse attenuation coefficient (𝐾_d), describes how quickly light diminishes with depth in water. It is a measure of light extinction and is widely used to quantify water clarity or turbidity. 
+- Low (<0.1 m⁻¹)	Very clear (open ocean)
+- Moderate (0.1–0.5 m⁻¹)	Coastal/nearshore waters
+- High (>0.5 m⁻¹)	Turbid or sediment-rich water
 
 **LiDAR (Light Detection and Ranging)**  
-A remote sensing method that uses light in the form of a pulsed laser to measure variable distances to the Earth.
+A remote sensing method that uses light in the form of a pulsed laser to measure distances from the sensor to the measured object.
 
 **LAS/LAZ (LAS/LAZ file format)**  
-File format designed for the interchange and archiving of lidar point cloud data. LAZ is a lossless compressed version.
+File format designed for the interchange and archiving of lidar point cloud data. LAZ is the preffered lossless compressed version.
 
-**SECCI**
-Define SECCI here
+**MBES (Multibeam Echosounder)**  
+Sonar system consisting of multiple sonar beams mapping the seafloor in swaths. Commonly operated from a surface vessel. 
+
+**SECCI**  
+Secchi depth is a measure of water transparency or clarity. It is determined using a circular, usually black-and-white disk, lowered into the water until it is no longer visible. The depth at which it disappears is recorded as the Secchi depth.
 
 # References
 Curated list of references, standards, and additional reading materials relevant to ALB practices.
