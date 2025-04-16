@@ -2,7 +2,7 @@
 <div style="text-align: right"> Ver 2025.01 </div>
 
 ## Introduction
-This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathymetry (ALB) in Norway. The intended audience is organizations procuring ALB and its content is based on the report "Validation and application of Airborne LiDAR Bathymetry (ALB) technology for improved management and monitoring of Norwegian rivers and lakes : a pilot study 2021-2022" carried out by Norwegian Water Resources and Energy Directorate (NVE), The Norwegian Mapping Authority (Kartverket), The Norwegian Environment Agency (Miljødirektoratet), The Norwegian Public Roads Administration (Statens vegvesen), and Hafslund Eco Vannkraft.
+This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathymetry (ALB) in Norway. The intended audience is organizations procuring ALB and its content is based on the report "Validation and application of Airborne LiDAR Bathymetry (ALB) technology for improved management and monitoring of Norwegian rivers and lakes : a pilot study 2021-2022" carried out by Norwegian Water Resources and Energy Directorate ([NVE](https://www.nve.no/)), The Norwegian Mapping Authority ([Kartverket](https://www.kartverket.no/)), The Norwegian Environment Agency ([Miljødirektoratet](https://www.miljodirektoratet.no/)), The Norwegian Public Roads Administration ([Statens vegvesen](https://www.vegvesen.no/)), and [Hafslund](https://www.hafslund.no/en).
 
 ## Table of Contents
 - [Airborne LiDAR Bathymetry - Best Practice Manual](#airborne-lidar-bathymetry---best-practice-manual)
@@ -27,7 +27,7 @@ This manual provides comprehensive guidelines on the use of Airborne LiDAR Bathy
     - [Standards](#standards)
     - [Articles / Journal Papers](#articles--journal-papers)
     - [Books](#books)
-    - [Reports / Technical Documentation](#reports--technical-documentation)
+    - [Reports](#reports)
     - [Websites](#websites)
 - [Appendix](#appendix)
   - [List of ALB Datasets](#list-of-alb-datasets)
@@ -100,29 +100,15 @@ Norwegian government agencies have been evaluating the potential of the ALB sens
 The evolution of ALB sensor technologies has been high and in 2019 the current generation of Riegl, Hexagon and Optech sensors were evaluated by an ALB working group over a range of river types. However, the delivery was not a direct comparative study of sensors, but rather an in-depth investigation into the use of ALB as a tool for more efficient management of rivers and freshwater bodies. 
 
 ## River surveys 
-Since 2019, NVE, Skagerak Energi and Hafslund Eco have mapped more than 30 rivers and ALB is the de facto dataset that provides input for accurate hydraulic models and hydro-morphological analyses, such as monitoring sediment transport and erosion over time and simulating flood mitigation programs.
-- 2021 Bøelva
-- 2021 Lærdalselva
-- 2021 Lærdalselva Drone
-- 2021 Glomma
-- 2021 Tangelva, Gjermåa and Leira
-- 2021 Hallingdalselven
-
+Since 2019, NVE, Skagerak Energi and Hafslund Eco have mapped more than 30 rivers, and ALB is the de facto dataset that provides input for accurate hydraulic models and hydro-morphological analyses, such as monitoring sediment transport and erosion over time and simulating flood mitigation programs. [Knut Alfredsen (https://www.ntnu.edu/employees/knut.alfredsen)], professor at NTNU, has been a key resource in introducing the use of topobathy point clouds in various aspects of river management. His report [Oversikt over bruk av batymetrisk LiDAR ved NTNU](https://hdl.handle.net/11250/3027750) details the practical use of ALB in river studies.
 
 ## Lake and reservoir surveys
-To create a seamless elevation model and provide a dataset suitable for habitat and ecosystem management, ALB has been used to complement multibeam measurements. ALB has also been used to accurately map hydroelectric reservoirs to monitor sedimentation and facilitate volume estimation.
-- 2018 Benna
-- 2020 Benna
-- 2021 Selbusjøen
-- 2021 Krøderen
+To create a seamless elevation model and provide a dataset suitable for habitat and ecosystem management, ALB has been used to complement multibeam measurements. A team at NTNU, Ahmed, Bakken and Alfredsen, states in their report [Assessment of the suitability of Green LiDAR in mapping lake bathymetry](https://hdl.handle.net/11250/3103489) that ALb is _"a dataset suited to identify potential areas for 7 spawning, feeding and rearing areas of lakes, if physical habitat preferences are known. It can also form the basis for physical habitat mitigating measures in lakes and reservoirs, potentially negatively affected by regulations or other physical modifications. As a basis for computational analysis in lakes and reservoirs, Green LiDAR will be very useful in establishing a bathymetric model for simulating commonly physical and chemical variables such as water velocities and depths, water temperatures and ice formation, sediment deposition and suspension, and basic water quality parameters (e.g. BOD, oxygen concentration, nitrogen and phosphorus concentration and turbidity)."_ 
+
+ALB has also been used to accurately map hydroelectric reservoirs to monitor sedimentation and facilitate volume estimation.
   
 ## Marine surveys 
-A number of ALB surveys have been conducted in the marine environment with the intention of providing a set of test areas from different parts of Norway where one can investigate ALB as a source for coastal habitat mapping. ALB is also an important tool for producing hazard maps for fast clay landslides near the coastal zone. 
-- 2021 Helligvær
-- 2021 Bliksvær
-- 2021 Fjøløy
-- 2023 Fauske
-- 2024 Færder Nasjonalpark
+A number of ALB surveys have been carried out in the marine environment with the intention of providing a number of test areas from different parts of Norway where ALB can be studied as a source for mapping coastal habitats. ALB is also an important tool for producing hazard maps for fast clay landslides near the coast.
 
 # ALB Procurement Process
 
@@ -137,8 +123,6 @@ Step-by-step guide through the lifecycle of an ALB project, from planning and ex
 *_WORK IN PROGRESS_*
 
 # Example Specifications
-
-*_HER ØNSKER JEG AT VI LEGGER INN MALER FOR TEKNISK SPESIFIKASJON. ENKLESTE ER Å LENKE INN WORD DOKUMENTER MED ÅRSREVISJONER_* 
 
 Sample technical specifications and quality requirements for ALB projects.
 
@@ -174,10 +158,12 @@ Curated list of references, standards, and additional reading materials relevant
 ### Books
 - **Author(s)** (Year). *Title of Book* (Edition, if any). Publisher. ISBN (optional).
 
-### Reports / Technical Documentation
-- **Organization or Author(s)** (Year). *Title of Report* (Report No., if available). Publisher/Organization. [URL if available]
-- **NVE,Kartverket,Statens Vegvesen, Miljødirektoratet, Hafslund Eco** (2023). *Validation and application of Airborne LiDAR Bathymetry (ALB) technology for improved management and monitoring of Norwegian rivers and lakes : a pilot study 2021-2022* (NVE Rapport nr. 2/2023). NVE. [https://publikasjoner.nve.no/rapport/2023/rapport2023_02.pdf]
+### Reports
+- **Organization or Author(s)** (Year). *Title of Report* (Cristin 2183862). NTNU. [URL if available]
+- **NTNU** (2023). *Assessment of the suitability of Green LiDAR in mapping lake bathymetry* (https://hdl.handle.net/11250/3103489)
+- **NVE,Kartverket,Statens Vegvesen,Miljødirektoratet,Hafslund** (2023). *Validation and application of Airborne LiDAR Bathymetry (ALB) technology for improved management and monitoring of Norwegian rivers and lakes : a pilot study 2021-2022* (NVE Rapport nr. 2/2023). NVE. [https://publikasjoner.nve.no/rapport/2023/rapport2023_02.pdf]
 - **NORCE** (2022). *Application of airborne LiDAR bathymetry in Norway* (LFI-rapport nr: 46) NORCE [https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/3053017]
+- **NTNU** (2022). *Oversikt over bruk av batymetrisk LiDAR ved NTNU* (Rapport B1-2022-1). NTNU. [https://hdl.handle.net/11250/3027750]
 
 
 ### Websites
