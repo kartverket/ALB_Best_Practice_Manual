@@ -156,31 +156,34 @@ Sonar system consisting of multiple sonar beams mapping the seafloor in swaths. 
 Secchi depth is a measure of water transparency or clarity. It is determined using a circular, usually black-and-white disk, lowered into the water until it is no longer visible. The depth at which it disappears is recorded as the Secchi depth.
 
 # References
-Curated list of references, standards, and additional reading materials relevant to ALB practices.
+List of references, standards, and additional reading materials relevant to ALB practices.
 
 ### Standards
 - **Produktspesifikasjon Punktsky** (current version). Kartverket. [https://sosi.geonorge.no/produktspesifikasjoner/Punktsky/] 
 
 ### Articles / Journal Papers
-[//]: # - **Author(s)** (Year). *Title of the article*. _Journal Name_, Volume(Issue), pages. [DOI or URL] 
+<!-- - **Author(s)** (Year). *Title of the article*. _Journal Name_, Volume(Issue), pages. [DOI or URL]-->
+- **Awadallah, M.O.M.; Malmquist, C.; Stickler, M.; Alfredsen, K.** (2023). *Quantitative Evaluation of Bathymetric LiDAR Sensors and Acquisition Approaches in Lærdal River in Norway*. _Remote Sensing. 2023_, 15, 263. https://doi.org/10.3390/rs15010263
+- **Kastdalen, L., Stickler, M., Malmquist, C., & Heggenes, J.** (2024). *Evaluating methods for measuring in-river bathymetry: Remote sensing green LIDAR provides high-resolution channel bed topography limited by water penetration capability*. _River Research and Applications_, 40(4), 467–482. https://doi.org/10.1002/rra.4245
 - **Mandlburger, G.** (2020). *A review of airborne laser bathymetry for mapping of inland and coastal waters.* _Hydrographische Nachrichten_, 116, 6–15. https://doi.org/10.23784/HN116-01
 
+
 ### Reports
-[//]: # - **Organization or Author(s)** (Year). *Title of Report* (Cristin 2183862). NTNU. [URL if available]
+<!-- - **Organization or Author(s)** (Year). *Title of Report* (Cristin 2183862). NTNU. [URL if available]-->
 - **NTNU** (2023). *Assessment of the suitability of Green LiDAR in mapping lake bathymetry* (https://hdl.handle.net/11250/3103489)
 - **NVE,Kartverket,Statens Vegvesen,Miljødirektoratet,Hafslund** (2023). *Validation and application of Airborne LiDAR Bathymetry (ALB) technology for improved management and monitoring of Norwegian rivers and lakes : a pilot study 2021-2022* (NVE Rapport nr. 2/2023). NVE. [https://publikasjoner.nve.no/rapport/2023/rapport2023_02.pdf]
 - **NORCE** (2022). *Application of airborne LiDAR bathymetry in Norway* (LFI-rapport nr: 46) NORCE [https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/3053017]
 - **NTNU** (2022). *Oversikt over bruk av batymetrisk LiDAR ved NTNU* (Rapport B1-2022-1). NTNU. [https://hdl.handle.net/11250/3027750]
 
+<!--
+### Websites
+- **Author/Organization** (Year). *Title of Webpage or Article*. Website Name. Retrieved [Date accessed], from [URL]
 
-[//]: # ### Websites
-[//]: # - **Author/Organization** (Year). *Title of Webpage or Article*. Website Name. Retrieved [Date accessed], from [URL]
-[//]: # 
-[//]: #   **Example:**
-[//]: #   - **Kartverket** (2024). *Bathymetric LiDAR in Norway*. Kartverket.no. Retrieved April 5, 2024, from [https://www.kartverket.no/bathymetric-lidar-norway]
-
+  **Example:**
+  - **Kartverket** (2024). *Bathymetric LiDAR in Norway*. Kartverket.no. Retrieved April 5, 2024, from [https://www.kartverket.no/bathymetric-lidar-norway]
+-->
 # Appendix
-Supporting documents, templates, and supplementary information useful for ALB project execution and management.
+
 ## List of ALB Datasets
 
 | Dataset                                                                                          | Acquisition Year   | Contractor                     | Dataset Owner     |
