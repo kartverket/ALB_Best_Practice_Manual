@@ -192,7 +192,7 @@ List of references, standards, and additional reading materials relevant to ALB 
 
 | Dataset                                                                                          | Acquisition Year   | Contractor                     | Dataset Owner     |
 |:-------------------------------------------------------------------------------------------------|:-------------------|:-------------------------------|:------------------|
-| [Batymetri Fjøløy 2013](https://hoydedata.no/laserinnsyn2?id=5327)                               | 2013               | Statens Kartverk Sjødivisjonen | Kartverket        |
+| [Batymetri Fjøløy 2013 (MBES)](https://hoydedata.no/laserinnsyn2?id=5327)                        | 2013               | Statens Kartverk Sjødivisjonen | Kartverket        |
 | [Hafslund Elvekartlegging Geilo 2015](https://hoydedata.no/laserinnsyn2?id=6122)                 | 2015               | Statens Kartverk               | Hafslund-Eco      |
 | [Hafslund Elvekartlegging Gol 2015](https://hoydedata.no/laserinnsyn2?id=6123)                   | 2015               | Statens Kartverk               | Hafslund-Eco      |
 | [Hafslund Elvekartlegging Hallingdalselve Hol 2015](https://hoydedata.no/laserinnsyn2?id=6126)   | 2015               | Statens Kartverk               | Hafslund-Eco      |
