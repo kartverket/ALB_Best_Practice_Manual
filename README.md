@@ -69,7 +69,7 @@ Please note that this deep vs. shallow division does not apply to all sensors, a
 
 Although they share many of the same sensor components and virtually the same measurement principles, an ALB system differs significantly from a classic ALS setup. Due to the air-water-air propagation, a measurement with an ALB sensor is a function of significant limiting factors and will be more difficult to process than the ALS measurement where the light propagates only in the air. This is illustrated in the following figure by Mandlburger (2022) in his article summarizing the available active and passive methods used in bathymetric surveys. 
 
-![Alt text for the image](/figures/Pfeifer-mandlburger-glira_2015_ALB-Concept.png)
+![Pfeifer-Mandlburger-Glira - ALB Measurement Concept](/figures/Pfeifer-mandlburger-glira_2015_ALB-Concept.png)
 
 *Fig. 1: Conceptual drawing of the principle of airborne laser bathymetry. (Mandlburger 2020)*
 
