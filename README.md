@@ -165,7 +165,11 @@ List of references, standards, and additional reading materials relevant to ALB 
 <!-- - **Author(s)** (Year). *Title of the article*. _Journal Name_, Volume(Issue), pages. [DOI or URL]-->
 - **Awadallah, M.O.M.; Malmquist, C.; Stickler, M.; Alfredsen, K.** (2023). *Quantitative Evaluation of Bathymetric LiDAR Sensors and Acquisition Approaches in Lærdal River in Norway*. _Remote Sensing. 2023_, 15, 263. https://doi.org/10.3390/rs15010263
 - **Kastdalen, L., Stickler, M., Malmquist, C., & Heggenes, J.** (2024). *Evaluating methods for measuring in-river bathymetry: Remote sensing green LIDAR provides high-resolution channel bed topography limited by water penetration capability*. _River Research and Applications_, 40(4), 467–482. https://doi.org/10.1002/rra.4245
+- **Mandlburger, G., Pfennigbauer, M., Schwarz, R., Flöry, S., & Nussbaumer, L.** (2020). *Concept and Performance Evaluation of a Novel UAV-Borne Topo-Bathymetric LiDAR Sensor*. _Remote Sensing_, 12(6), 986. https://doi.org/10.3390/rs12060986
 - **Mandlburger, G.** (2020). *A review of airborne laser bathymetry for mapping of inland and coastal waters.* _Hydrographische Nachrichten_, 116, 6–15. https://doi.org/10.23784/HN116-01
+- **Christopher E. Parrish, Jennifer A. Dijkstra, Jarlath P.M. O'Neil-Dunne, Lindsay McKenna, Shachak Pe'eri**. *Post-Sandy Benthic Habitat Mapping Using New Topobathymetric Lidar Technology and Object-Based Image Classification*. _Journal of Coastal Research_, 76(sp1), 200-208, (1 December 2016). http://dx.doi.org/10.2112/SI76-017 
+- **Mandlburger, G., Hauer, C., Wieser, M., & Pfeifer, N.** (2015). *Topo-Bathymetric LiDAR for Monitoring River Morphodynamics and Instream Habitats — A Case Study at the Pielach River*. _Remote Sensing_, 7(5), 6160-6195. https://doi.org/10.3390/rs70506160
+- **Guenther, Gary C.; Cunningham, A. G.; LaRocque, Paul E.; Reid, David J.** (2000). *Meeting the Accuracy Challenge in Airborne Bathymetry*. _Proceedings of EARSeL-SIG-Workshop LIDAR, Dresden/FRG, June 16 – 17, 2000_, https://apps.dtic.mil/sti/citations/ADA488934 
 
 
 ### Reports
