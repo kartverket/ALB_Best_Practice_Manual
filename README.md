@@ -1,5 +1,6 @@
 # Airborne LiDAR Bathymetry - Best Practice Manual
 <div style="text-align: right"> Ver 2025.01 </div>
+![QC Example from Beiarn](/qc/alb_qc_example.png)
 
 ## Introduction
 This manual provides guidelines on the use of Airborne LiDAR Bathymetry (ALB) in Norway. The intended audience is organizations procuring ALB and its content is based on the project "Validation and application of Airborne LiDAR Bathymetry (ALB) technology for improved management and monitoring of Norwegian rivers and lakes : a pilot study 2021-2022" carried out by Norwegian Water Resources and Energy Directorate ([NVE](https://www.nve.no/)), The Norwegian Mapping Authority ([Kartverket](https://www.kartverket.no/)), The Norwegian Environment Agency ([Miljødirektoratet](https://www.miljodirektoratet.no/)), The Norwegian Public Roads Administration ([Statens vegvesen](https://www.vegvesen.no/)), and [Hafslund](https://www.hafslund.no/en).
