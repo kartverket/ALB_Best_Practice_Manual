@@ -1,5 +1,6 @@
 # Airborne LiDAR Bathymetry - Best Practice Manual
 <div style="text-align: right"> Ver 2025.01 </div>
+
 ![QC Example from Beiarn](/qc/alb_qc_example.png)
 
 ## Introduction
