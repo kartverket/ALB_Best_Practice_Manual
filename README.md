@@ -112,17 +112,41 @@ ALB has also been used to accurately map hydroelectric reservoirs to monitor sed
 ## Marine surveys 
 A number of ALB surveys have been carried out in the marine environment with the intention of providing a number of test areas from different parts of Norway where ALB can be studied as a source for mapping coastal habitats. ALB is also an essential tool for identifying and mapping hazard-prone areas, particularly for assessing the risks associated with rapid clay landslides near coastal regions. Through its precise elevation data and high-resolution shallow-water topobathy terrain models, ALB provides critical insight into surface morphology, slope stability and drainage patterns. This detailed information significantly improves the accuracy of hazard maps, enabling authorities and planners to better predict, prepare for and mitigate the devastating effects of fast clay landslides in vulnerable coastal areas.
 
+>Case: Fauske (2023)
+>![ALB Fauske](/alb_examples/Coast_Fauske_ALB+ALS_1.png)
+>Two areas in Fauske municipality were surveyed to produce a homogeneous topobathymetric dataset for modeling landslide >consequences in regions with known quick clay deposits. In Klungsetvika Bay—a nearly enclosed body of water with limited >circulation, muddy bottom, and a maximum depth of 17 meters—the ALB sensor successfully mapped to a depth of 14m. Near >Fauske town center, the bathymetric mapping extended to a depth of 25m, greatly improving the efficiency of >complementary surveys conducted with multibeam from surface vessels.
+
+>Case: Glomma Estuary (2021)
+>![ALB Glomma](/alb_examples/River_Glomma_3_ALB_and_MBES.png)
+>
+>The estuarine section of the Glomma River was surveyed using both the Optech CZMIL Supernova and the Leica Chiroptera >4X. The aim was to compare sensor performance and generate a unified topobathy model for landslide modeling. The area >posed challenges due to high turbidity and low reflectivity from soft bottom sediments, resulting in a maximum mapping >depth of 1.8 meters for both sensors.
+>
+>Multibeam echo sounder data were collected to supplement the ALB coverage and enable full modeling of the riverbed. >Despite limited depth penetration, the ALB data proved valuable for analyzing extensive shallow areas in the transition >zone between river and dry land—areas that would be impractical to survey with conventional methods.
+
+>Case: Helligvær and Bliksvær (2021)
+>![ALB Hellivær](/alb_examples/Coast_Hellivær_2_Detail.png)
+>
+>As part of the NDH mapping program, an Teledyne Optech CZMIL Supernova sensor was deployed over the Helligvær and Bliksvær archipelagos in Nordland. These areas are characterized by sandy seabeds and calm, protected waters to the east, transitioning to deeper and more exposed conditions toward the Vestfjord in the west.
+The ALB sensor performed well, producing seamless topobathymetric models. The method proved efficient, with approximately 13 km² mapped per flight hour, including turns and cross-lines. Secchi depth measurements were logged prior to data acquisition, but the experience suggests that acquisition should be scheduled for early autumn to avoid algae blooms. Survey permissions from the Norwegian Armed Forces should be initiated at least six months in advance for areas as large as this to secure optimal data collection periods.
+>
+>Good point density was achieved down to 25 meters below NN2000, with Secchi depths measured to 7 meters. Despite a rather large footprint, the sensor established a good DTM with good vegetation penetration.
+>
+>Compared to local reference surfaces, the residual vertical datum shift in the point cloud was -13 cm (standard deviation: 4 cm), slightly exceeding the 10 cm requirement. However, once adjusted, the accuracy of the topographic model met the ALS specification for point cloud products. Establishing ground control points in such rural areas will be a challenge as the there is little infrastructure pushing the cost up.
+>
+>With a 450 m flying altitude, the ALB sensor effectively mapped electrical and communication cables, outperforming traditional ALS systems that typically fly higher with smaller beam divergence. Topobathymetric mapping in such areas is well-suited for co-financing through Geovekst and potentially other non-member agencies with interest in the coastal zone.
+
+
 # ALB Procurement Process
 
 Guidelines and recommendations on procuring ALB services, including tendering, specifications, and evaluation criteria.
 
-*_WORK IN PROGRESS - ETA MAY 2025_*
+*_WORK IN PROGRESS - ETA 2025_*
 
 # ALB Project Workflow
 
 Step-by-step guide through the lifecycle of an ALB project, from planning and aquisition to quality control and project termination.
 
-*_WORK IN PROGRESS - ETA MAY 2025_*
+*_WORK IN PROGRESS - ETA 2025_*
 
 # Example Specifications
 The following technical specifications have been used by NVE and others over the past year and can be used as a template for bathymetry procurement. We have had mixed experience with the combination of ALB and MBES from surface vessels in a single contract, and we generally recommend that one first map with ALB and then bid out the infill survey with MBES in a separate tender. The specifications function as both ToR (Terms of Reference) and TS (Technical Specification) and are based on the requirements set by Kartverket standards. 
