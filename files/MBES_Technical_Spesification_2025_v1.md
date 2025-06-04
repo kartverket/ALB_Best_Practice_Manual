@@ -1,4 +1,4 @@
-# APPENDIX C: Procurement of MBES – Technical Specification
+# Procurement of MBES – Technical Specification
 
 For waterbodies where ALB does not give complete coverage one can consider complementing the ALB with a Multibeam Echo Sounder (MBES) survey. To minimize time in field, one should acquire MBES after actual coverage of the ALB survey has been delivered.
 
