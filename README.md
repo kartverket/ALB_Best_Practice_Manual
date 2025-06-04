@@ -154,7 +154,7 @@ The following technical specifications have been used by NVE and others over the
 - [ALB_Technical_Spesification_2025_v1.docx](/files/ALB_Technical_Spesification_2025_v1.docx) (download using 'raw' button on right hand side)
 
 ## Example MBES Specification
-*_WORK IN PROGRESS - ETA MAY 2025_*
+- [MBES_Technical_Spesification_2025_v1.md](/files/MBES_Technical_Spesification_2025_v1.md)
 
 # Quality Control 
 A quality check of the delivered dataset should be performed close to acquisition in order to identify deficiencies in the raw dataset as well as errors in the delivery format, report, and metadata. A minimum QC regime based on QGIS and PDAL can be found [here](/qc/ALB_QC_Steps.md).
