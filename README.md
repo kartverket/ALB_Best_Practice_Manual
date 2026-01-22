@@ -44,13 +44,13 @@ This manual is licensed under the Norwegian Licence for Open Government Data (NL
 
 Light Detection and Ranging (LiDAR) technology has become the primary source for capturing river geometry, enabling rapid and accurate 3D point cloud collection in shallow water where other conventional measurement techniques, such as multibeam echosounders, are impractical or impossible to use due to shallow water or fast flowing white water rivers.  
 
-A LiDAR sensor measures the distance to a target by measuring the time between the emission of a laser pulse from a sensor and the detection of the reflected laser from the target. Depending on the wavelength, there are two types of LiDAR sensors: topographic LiDAR (ALS) and bathymetric LiDAR (ALB). Topographic LiDAR is associated with a 1064 nm laser, which cannot penetrate water and is therefore mainly used for topographic and sea surface sensing. Bathymetric LiDAR, on the other hand, uses a 532 nm laser that penetrates the water and is reflected by the seabed.
+A LiDAR system measures distance to a target by measuring the time elapsed between the emission of a laser pulse and the detection of its return signal reflected from the target. LiDAR systems can be classified according to sensor design and signal processing principles (for example, full‑waveform or single‑photon systems). Independently of sensor architecture, LiDAR applications are commonly distinguished by the measurement environment and the laser wavelength employed. Topographic airborne LiDAR surveying (ALS) typically uses near‑infrared wavelengths around 1064 nm, which do not penetrate water and are therefore suited for topographic mapping and sea‑surface detection. Bathymetric airborne LiDAR (ALB) employs green light, commonly at 532 nm, which can penetrate the water column and be reflected by the seabed, enabling shallow‑water depth measurements.
 
-The ALB is the most widely used type of LiDAR for river studies that require a high degree of mapping accuracy, such as environmental river studies, sediment transport studies and flood modeling. Currently, a variety of bathymetric LiDAR sensors are commercially available, defined by their technical specifications such as laser energy per pulse, laser footprint, and maximum detectable depth. 
+The ALB is the most widely used type of LiDAR for river studies that require accurate and homogenous terrain models, such as environmental river studies, sediment transport studies and flood modeling. Currently, a variety of bathymetric LiDAR sensors are commercially available, defined by their technical specifications such as laser energy per pulse, laser footprint, and maximum detectable depth. 
 
 Sensor types range from heavy, high-energy systems that require fixed-wing aircraft to smaller, lighter, low-energy sensors that can be mounted on a drone. The choice of sensor for bathymetric mapping depends primarily on the size of the project, whether the surrounding topography allows safe operation with fixed-wing aircraft, the required spatial resolution and sensor availability. 
 
-[Gottfried Mandlburger](https://orcid.org/0000-0002-2332-293X), a scholar at TU Wien, has over the years been following the advances of ALB sensors and has nominated the following categories as a rudimentary classification:
+[Gottfried Mandlburger](https://orcid.org/0000-0002-2332-293X), a scholar at TU Wien, has over the years been following the advances of ALB sensors and has nominated the following categories as a rudimentary classification (Ref. Mandlburger: EduServ 2021, Recent LiDAR technologies Module 5: Topo-Bathy - Sensor overview.):
 
 | Deep Bathymetric Sensors | Shallow Bathymetric Sensors |
 |------------------------|----------------------------|
@@ -73,7 +73,7 @@ Although they share many of the same sensor components and virtually the same me
 
 ![Pfeifer-Mandlburger-Glira - ALB Measurement Concept](/figures/Pfeifer-mandlburger-glira_2015_ALB-Concept.png)
 
-*Fig. 1: Conceptual drawing of the principle of airborne laser bathymetry. (Mandlburger 2020)*
+*Fig. 1: Conceptual drawing of the principle of airborne laser bathymetry. (Mandlburger 2022)*
 
 In order for the system to reliably detect a seafloor return, the emitted light energy must survive a number of limiting factors. First, the energy must propagate from air to water and not be reflected at the air-water interface. Next, the light is attenuated in the water column by absorption and scattering. Finally, the seafloor must reflect a minimum amount of energy for the light to travel back up the propagation path to the ALB sensor. To calculate air-to-water and water-to-air refraction, the system must also acquire or estimate the water surface. Without modeling the water surface, the system will not be able to compute bathymetric measurements. As a side note, sunlight can affect the noise level in the sensor receiver, and a greater depth range can be achieved by flying at night.  
 
@@ -92,7 +92,7 @@ An overview of the advantages and disadvantages of using airborne LiDAR bathymet
 - Sensor performance, generally measured by the depth range achieved, depends on several physical and environmental factors that are difficult to assess and predict. First, the seafloor must have a reflectivity above a certain threshold and one must have a line-of-sight to the sensor free of obstructions and thick vegetation. Second, weather, sea state, amount of suspended sediment and rock/glacial debris in the water column will degrade performance.
 - A successful mapping campaign requires good acquisition timing. When mapping in marine environments, large algal blooms must be avoided, and when mapping rivers and lakes, water quality, turbulence, whitewater and rapids, and biomass in the water will either absorb or scatter laser energy. Timing the perfect acquisition window with commercially available sensors can be challenging.
 - Classifying a bathymetric point cloud is challenging, especially in low-density or noisy datasets where a geometric or statistical approach begins to fail and one must resort to more manual interpretation. 
-- Mapping the exact transition zone between "wet" and "dry" is challenging, and it can be difficult to distinguish the sea surface from the seafloor. This is due to both sensor design and how the system distinguishes between points in the water and points on the dry, but environmental factors such as waves and submerged vegetation can make the classification challenging.
+- Distinguishing the exact transition zone between “wet” and “dry” areas is inherently challenging — even with direct visual observation. In ALB, this is influenced by sensor design and the system’s ability to differentiate between points in the water and on land. Environmental factors such as waves, white water and submerged vegetation can further complicate the process. This is not unique to ALB; similar classification challenges exist in ALS. As classification standards vary between countries it is challenging for processing software providers to develop robust, fully automated classification algorithms and often costly manual intepretation is required. The classification regime in the transition zone should be discussed and clarified with the contractor before commencing ALB work.
 
 
 # ALB Use Cases in Norway
@@ -285,9 +285,9 @@ Please note that some datasets are MBES only. Most of the datasets are available
 | [NDH Tangelva Chiroptera 2021](https://hoydedata.no/laserinnsyn2?id=5801)                        | 2021               | Hexagon                        | NDH               |
 | [NDH Topobaty Bliksvær 2021](https://hoydedata.no/laserinnsyn2?id=5436)                          | 2021               | Terratec AS                    | NDH               |
 | [NDH Topobaty Helligvær 2021](https://hoydedata.no/laserinnsyn2?id=5435)                         | 2021               | Terratec AS                    | NDH               |
-| NVE - 2023/2023/2024 (Several Rivers)                                                            |                    | Field                          | NVE               | 
-| Hafslund Eco - 2023/2023/2024 (Several Rivers)                                                   |                    | Field                          | Hafslund-Eco      |
-| Skagerak Energi - 2023/2023/2024 (Several Rivers)                                                |                    | Field                          | Skagerak Energi   | 
+| NVE - 2022/2023/2024 (Several Rivers)                                                            |                    | Field                          | NVE               | 
+| Hafslund Eco - 2022/2023/2024 (Several Rivers)                                                   |                    | Field                          | Hafslund-Eco      |
+| Skagerak Energi - 2022/2023/2024 (Several Rivers)                                                |                    | Field                          | Skagerak Energi   | 
 | [Beiarelva Batymetri 2023](https://hoydedata.no/laserinnsyn2?id=6142)                            | 2023               | Field                          | Geovekst          |
 | [Fauske Batymetri 2023](https://hoydedata.no/laserinnsyn2?id=6142)                               | 2023               | Field                          | Geovekst          |
 | [Færder topobathy 2024](https://hoydedata.no/laserinnsyn2?id=6142)                               | 2024               | Hexagon                        | Geovekst          |
